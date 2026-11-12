@@ -1677324,9 +1677324,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677354,7 +1677352,7 @@
       },
       {
         "type": 5,
-        "subType": 17,
+        "subType": 11,
         "value": 5,
         "isInherent": false
       },
@@ -1677378,12 +1677376,12 @@
       }
     ],
     "abilities": [],
-    "ability_tags": [],
     "utility": 88,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "angelic ascended circlet of rhiannon",
+    "lastModified": 1794479608752
   },
   {
     "id": "f17ebfe6-8ae5-4b63-9ea1-1834be14af77",
