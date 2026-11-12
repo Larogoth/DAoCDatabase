@@ -865866,9 +865866,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -865901,14 +865899,14 @@
         "isInherent": false
       },
       {
-        "type": 79,
+        "type": 80,
         "subType": 0,
         "value": 3,
         "isInherent": false
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -865920,12 +865918,12 @@
       }
     ],
     "abilities": [],
-    "ability_tags": [],
     "utility": 50,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "dreadguard ascended tome of fiends",
+    "lastModified": 1794479198778
   },
   {
     "id": "45827",
@@ -1391358,7 +1391356,7 @@
         "isInherent": false
       },
       {
-        "type": 79,
+        "type": 80,
         "subType": 0,
         "value": 3,
         "isInherent": false
@@ -1643429,68 +1643427,82 @@
     "name": "Forged Starlight Chain",
     "slot": "Main Hand",
     "level": 50,
+    "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
         "subType": 300,
-        "value": 4
+        "value": 4,
+        "isInherent": false
       },
       {
         "type": 1,
         "subType": 0,
-        "value": 15
+        "value": 15,
+        "isInherent": false
       },
       {
         "type": 1,
         "subType": 1,
-        "value": 15
+        "value": 15,
+        "isInherent": false
       },
       {
         "type": 28,
         "subType": 0,
-        "value": 6
+        "value": 6,
+        "isInherent": false
       },
       {
         "type": 28,
         "subType": 1,
-        "value": 6
+        "value": 6,
+        "isInherent": false
       },
       {
         "type": 8,
         "subType": 0,
-        "value": 4
+        "value": 4,
+        "isInherent": false
       },
       {
         "type": 10,
         "subType": 0,
-        "value": 4
+        "value": 4,
+        "isInherent": false
       },
       {
         "type": 19,
         "subType": 0,
-        "value": 4
+        "value": 4,
+        "isInherent": false
       },
       {
         "type": 9,
         "subType": 0,
-        "value": 4
+        "value": 4,
+        "isInherent": false
       },
       {
         "type": 12,
         "subType": 0,
-        "value": 4
+        "value": 4,
+        "isInherent": false
       }
     ],
-    "utility": 164,
-    "source": "manual",
+    "abilities": [],
     "ability_tags": [
-      "fn_nresistance",
       "Ability: Resistance Decrease",
-      "fn_olifedrain",
-      "Ability: Omni-Lifedrain"
+      "fn_nresistance",
+      "Ability: Omni-Lifedrain",
+      "fn_olifedrain"
     ],
-    "lastModified": 1784647246707,
+    "utility": 164,
+    "absorption": 0,
+    "category": 1,
     "weapon_type": "Flexible",
     "type_data": {
       "dps": 16.5,
@@ -1643498,7 +1643510,8 @@
       "damage_type": 2,
       "skill_used": 46
     },
-    "category": 1
+    "delve_text": "",
+    "source": "manual"
   },
   {
     "id": "80",
@@ -1657729,7 +1657742,7 @@
         "isInherent": false
       },
       {
-        "type": 79,
+        "type": 80,
         "subType": 0,
         "value": 3,
         "isInherent": false
@@ -1677214,7 +1677227,7 @@
         "isInherent": false
       },
       {
-        "type": 79,
+        "type": 80,
         "subType": 0,
         "value": 3,
         "isInherent": false
@@ -1677246,9 +1677259,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677288,7 +1677299,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -1677300,12 +1677311,12 @@
       }
     ],
     "abilities": [],
-    "ability_tags": [],
     "utility": 44,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "hungering ascended tome of fiends",
+    "lastModified": 1794479237050
   },
   {
     "id": "e5a0fcde-b469-437c-90b1-edc29d8611bf",
@@ -1677473,9 +1677484,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -1677515,18 +1677524,18 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       }
     ],
     "abilities": [],
-    "ability_tags": [],
     "utility": 50,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "soulforged ascended tome of fiends",
+    "lastModified": 1794479269187
   },
   {
     "id": "f598ec49-fc16-4956-b820-8eaaadab986a",
@@ -1677534,9 +1677543,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677557,7 +1677564,7 @@
         "isInherent": false
       },
       {
-        "type": 79,
+        "type": 80,
         "subType": 0,
         "value": 3,
         "isInherent": false
@@ -1677582,12 +1677589,12 @@
       }
     ],
     "abilities": [],
-    "ability_tags": [],
     "utility": 20,
-    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "fearmongering ascended tome of fiends",
+    "lastModified": 1794479212338
   },
   {
     "id": "f743eb4a-0ab1-4c20-b61c-759cfb2ef6b2",
@@ -1677595,9 +1677602,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677630,14 +1677635,14 @@
         "isInherent": false
       },
       {
-        "type": 79,
+        "type": 80,
         "subType": 0,
         "value": 3,
         "isInherent": false
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -1677649,12 +1677654,12 @@
       }
     ],
     "abilities": [],
-    "ability_tags": [],
     "utility": 60,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "demonforged ascended tome of fiends",
+    "lastModified": 1794479187009
   },
   {
     "id": "fcf3a8e4-47c4-4e48-a232-e17654a239e8",
