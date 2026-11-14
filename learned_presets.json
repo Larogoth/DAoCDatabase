@@ -1,7 +1,482 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T00:09:34.954Z",
+ "generatedAt": "2026-11-14T12:46:34.075Z",
  "presets": [
+  {
+   "id": "9|slash|solo",
+   "classId": 9,
+   "role": "Slash",
+   "groupSize": "solo",
+   "label": "Slash · Solo / duo",
+   "goals": [
+    {
+     "statName": "Strength",
+     "targetValue": 117
+    },
+    {
+     "statName": "Constitution",
+     "targetValue": 118,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 43,
+     "priority": "nice"
+    },
+    {
+     "statName": "Quickness",
+     "targetValue": 74,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 500,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 28
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 28,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 23,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Slash",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Thrust",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Dual Wield",
+     "targetValue": 3,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Stealth",
+     "targetValue": 4,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Melee Damage",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Style Damage",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Melee Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 6,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 4,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Armor Factor (AF)",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Conversion",
+     "targetValue": 10
+    },
+    {
+     "statName": "Mythical DPS",
+     "targetValue": 9,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Evade",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Defensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Melee Absorption Debuff",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Omni-Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Arrogance (Invocation)",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Attack Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Decrease Casting Speed",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Offensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 5,
+   "authors": 4,
+   "pool": "exact",
+   "updatedAt": 0
+  },
+  {
+   "id": "9|thrust|solo",
+   "classId": 9,
+   "role": "Thrust",
+   "groupSize": "solo",
+   "label": "Thrust · Solo / duo",
+   "goals": [
+    {
+     "statName": "Strength",
+     "targetValue": 114
+    },
+    {
+     "statName": "Constitution",
+     "targetValue": 116,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 43,
+     "priority": "nice"
+    },
+    {
+     "statName": "Quickness",
+     "targetValue": 66,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 500,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 28
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 24,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 23,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Slash",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Thrust",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Dual Wield",
+     "targetValue": 3,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Melee Damage",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Style Damage",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Melee Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 6,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Armor Factor (AF)",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Conversion",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical DPS",
+     "targetValue": 9,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Evade",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Omni-Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Defensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Melee Absorption Debuff",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Arrogance (Invocation)",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Attack Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Decrease Casting Speed",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Offensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 7,
+   "authors": 5,
+   "pool": "class",
+   "note": "Only 2 templates for Thrust · Solo / duo — learning from every template of this class (7).",
+   "updatedAt": 0
+  },
   {
    "id": "6||eight",
    "classId": 6,
