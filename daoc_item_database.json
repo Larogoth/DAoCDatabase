@@ -1677118,6 +1677118,109 @@
     "source": "manual"
   },
   {
+    "id": "b2caa0d9-160c-4fe2-aad1-f5233bd42f3f",
+    "name": "Dark Hallowed Sword",
+    "slot": "Main Hand",
+    "level": 50,
+    "bonus_level": 50,
+    "realm": 0,
+    "bonuses": [
+      {
+        "type": 1,
+        "subType": 3,
+        "value": 13,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 1,
+        "value": 13,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 0,
+        "value": 15,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 300,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 19,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 10,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 8,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 3,
+        "value": 6,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 0,
+        "value": 6,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 2,
+        "label": "Ability",
+        "trigger": "Proc on Hit",
+        "name": "Unknown Ability",
+        "description": "Damages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 2,
+        "label": "Ability",
+        "trigger": "Proc on Hit",
+        "name": "Unknown Ability",
+        "description": "[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Slash\nEffective Damage: 16.2 DPS"
+      }
+    ],
+    "ability_tags": [
+      "fn_olifedrain",
+      "Ability: Omni-Lifedrain",
+      "fn_direct",
+      "Ability: Direct Damage"
+    ],
+    "utility": 131.33,
+    "category": 1,
+    "weapon_type": "Slash",
+    "type_data": {
+      "dps": 16.5,
+      "speed": 4.5,
+      "damage_type": 2,
+      "skill_used": 1
+    },
+    "delve_text": "Rila: Dark Hallowed Sword\nMagical Bonuses:\n- Quickness: 13 pts\n- Dexterity: 13 pts\n- Strength: 15 pts\n- ALL melee weapon skills: 4 pts\nLevel Requirement: 50 Level\nBonus to melee combat speed: 4%\nBonus to style damage: 4%\nBonus to melee damage: 4%\nBonus to Quickness attribute bonus cap: 6\nBonus to Strength attribute bonus cap: 6\nMagical Ability:\nFunction: omni-lifedrain\nDamages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\n[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 4.5 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Slash\n- Effective Damage: 16.2 DPS",
+    "source": "manual",
+    "lastModified": 1794663670250,
+    "_normName": "rila: dark hallowed sword"
+  },
+  {
     "id": "b5c1fbc6-7faa-48fe-baa6-6d2d89ca9ba4",
     "name": "Bulwark of Dominion",
     "slot": "Off Hand",
@@ -1677254,6 +1677357,102 @@
     "category": 5,
     "delve_text": "",
     "source": "manual"
+  },
+  {
+    "id": "ccf73c11-a9cb-430b-b56c-4f203f7854c6",
+    "name": "Dark Hallowed Ripper",
+    "slot": "Off Hand",
+    "level": 50,
+    "bonus_level": 50,
+    "realm": 0,
+    "bonuses": [
+      {
+        "type": 2,
+        "subType": 301,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 0,
+        "value": 15,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 1,
+        "value": 13,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 3,
+        "value": 13,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 0,
+        "value": 6,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 3,
+        "value": 6,
+        "isInherent": false
+      },
+      {
+        "type": 8,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 10,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 19,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 2,
+        "label": "Ability",
+        "trigger": "Proc on Hit",
+        "name": "Unknown Ability",
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 150\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 2,
+        "label": "Ability",
+        "trigger": "Proc on Hit",
+        "name": "Unknown Ability",
+        "description": "Inflicts a wasting disease on the target that slows it,\nweakens it, and inhibits heal spells.\nTarget: Targeted\nRange: 1500\nDuration: 10 sec\nCasting time: instant\nDamage: Body\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition"
+      }
+    ],
+    "utility": 131.33,
+    "category": 1,
+    "weapon_type": "Slash",
+    "type_data": {
+      "dps": 16.5,
+      "speed": 4.5,
+      "damage_type": 2,
+      "skill_used": 1
+    },
+    "delve_text": "Dark Hallowed Ripper\nMagical Bonuses:\n- ALL dual wielding skills: 4 pts\n- Strength: 15 pts\n- Dexterity: 13 pts\n- Quickness: 13 pts\nLevel Requirement: 50 Level\nBonus to Strength attribute bonus cap: 6\nBonus to Quickness attribute bonus cap: 6\nBonus to melee damage: 4%\nBonus to style damage: 4%\nBonus to melee combat speed: 4%\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 150\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\nFunction: disease\nInflicts a wasting disease on the target that slows it,\nweakens it, and inhibits heal spells.\nTarget: Targeted\nRange: 1500\nDuration: 10 sec\nCasting time: instant\nDamage: Body\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 4.5 Weapon Speed\n- 100% Quality / 100% Condition",
+    "source": "manual",
+    "lastModified": 1794662697461
   },
   {
     "id": "ce194436-bb6d-4082-9642-0da3708da262",
