@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T13:45:37.926Z",
+ "generatedAt": "2026-11-14T22:05:47.694Z",
  "presets": [
   {
    "id": "9|slash|solo",
@@ -11,7 +11,7 @@
    "goals": [
     {
      "statName": "Strength",
-     "targetValue": 117
+     "targetValue": 112
     },
     {
      "statName": "Constitution",
@@ -52,7 +52,7 @@
     },
     {
      "statName": "Resist - Cold",
-     "targetValue": 28,
+     "targetValue": 23,
      "priority": "nice"
     },
     {
@@ -85,11 +85,6 @@
     {
      "statName": "Skill - Dual Wield",
      "targetValue": 3,
-     "priority": "nice"
-    },
-    {
-     "statName": "Skill - Stealth",
-     "targetValue": 4,
      "priority": "nice"
     },
     {
@@ -142,7 +137,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -150,7 +146,8 @@
      "statName": "Ability: Defensive Proc",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -160,7 +157,8 @@
      "abilitySecondaryFilters": {
       "mode": "unique",
       "value": 180,
-      "minValueIsHard": false
+      "minValueIsHard": false,
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -176,7 +174,8 @@
      "statName": "Ability: Melee Absorption Debuff",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -184,7 +183,8 @@
      "statName": "Ability: Omni-Heal",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -200,7 +200,8 @@
      "statName": "Ability: Arrogance (Invocation)",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -216,7 +217,8 @@
      "statName": "Ability: Decrease Casting Speed",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -225,7 +227,8 @@
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique",
-      "resistanceType": "both"
+      "resistanceType": "both",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -233,13 +236,14 @@
      "statName": "Ability: Offensive Proc",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "strike"
      },
      "priority": "nice"
     }
    ],
-   "templates": 5,
-   "authors": 4,
+   "templates": 6,
+   "authors": 5,
    "pool": "exact",
    "updatedAt": 0
   },
@@ -256,17 +260,17 @@
     },
     {
      "statName": "Constitution",
-     "targetValue": 116,
+     "targetValue": 118,
      "priority": "nice"
     },
     {
      "statName": "Dexterity",
-     "targetValue": 43,
+     "targetValue": 53,
      "priority": "nice"
     },
     {
      "statName": "Quickness",
-     "targetValue": 66,
+     "targetValue": 74,
      "priority": "nice"
     },
     {
@@ -276,7 +280,7 @@
     },
     {
      "statName": "Resist - Crush",
-     "targetValue": 26
+     "targetValue": 28
     },
     {
      "statName": "Resist - Slash",
@@ -315,12 +319,12 @@
     },
     {
      "statName": "Skill - Slash",
-     "targetValue": 7,
+     "targetValue": 8,
      "priority": "nice"
     },
     {
      "statName": "Skill - Thrust",
-     "targetValue": 7,
+     "targetValue": 8,
      "priority": "nice"
     },
     {
@@ -344,6 +348,11 @@
     {
      "statName": "Toa Cast Speed",
      "targetValue": 6,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 4,
      "priority": "nice"
     },
     {
@@ -375,7 +384,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -385,7 +395,8 @@
      "abilitySecondaryFilters": {
       "mode": "unique",
       "value": 180,
-      "minValueIsHard": false
+      "minValueIsHard": false,
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -401,7 +412,8 @@
      "statName": "Ability: Omni-Heal",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -417,7 +429,8 @@
      "statName": "Ability: Defensive Proc",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -425,7 +438,8 @@
      "statName": "Ability: Melee Absorption Debuff",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -434,7 +448,8 @@
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique",
-      "resistanceType": "both"
+      "resistanceType": "both",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -442,7 +457,8 @@
      "statName": "Ability: Arrogance (Invocation)",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -458,7 +474,8 @@
      "statName": "Ability: Decrease Casting Speed",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -466,15 +483,16 @@
      "statName": "Ability: Offensive Proc",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "strike"
      },
      "priority": "nice"
     }
    ],
-   "templates": 7,
-   "authors": 5,
+   "templates": 8,
+   "authors": 6,
    "pool": "class",
-   "note": "Only 2 templates for Thrust · Solo / duo — learning from every template of this class (7).",
+   "note": "Only 2 templates for Thrust · Solo / duo — learning from every template of this class (8).",
    "updatedAt": 0
   },
   {
@@ -635,7 +653,8 @@
      "statName": "Ability: Speed Decrease",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -652,7 +671,8 @@
      "statName": "Ability: Replenish Power",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -660,7 +680,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -668,7 +689,8 @@
      "statName": "Ability: Speed Enhancement",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -676,7 +698,8 @@
      "statName": "Ability: Remove Negative Effect",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     }
@@ -844,7 +867,8 @@
      "statName": "Ability: Speed Decrease",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -861,7 +885,8 @@
      "statName": "Ability: Replenish Power",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -869,7 +894,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -877,7 +903,8 @@
      "statName": "Ability: Speed Enhancement",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -885,7 +912,8 @@
      "statName": "Ability: Remove Negative Effect",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     }
@@ -1053,7 +1081,8 @@
      "statName": "Ability: Speed Decrease",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -1070,7 +1099,8 @@
      "statName": "Ability: Replenish Power",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1078,7 +1108,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1086,7 +1117,8 @@
      "statName": "Ability: Speed Enhancement",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1094,7 +1126,8 @@
      "statName": "Ability: Remove Negative Effect",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     }
@@ -1263,7 +1296,8 @@
      "statName": "Ability: Speed Decrease",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -1280,7 +1314,8 @@
      "statName": "Ability: Replenish Power",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1288,7 +1323,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1296,7 +1332,8 @@
      "statName": "Ability: Speed Enhancement",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1304,7 +1341,8 @@
      "statName": "Ability: Remove Negative Effect",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     }
@@ -1473,7 +1511,8 @@
      "statName": "Ability: Speed Decrease",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -1490,7 +1529,8 @@
      "statName": "Ability: Replenish Power",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1498,7 +1538,8 @@
      "statName": "Ability: Boon of Kings",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1506,7 +1547,8 @@
      "statName": "Ability: Speed Enhancement",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -1514,7 +1556,8 @@
      "statName": "Ability: Remove Negative Effect",
      "targetValue": 1,
      "abilitySecondaryFilters": {
-      "mode": "unique"
+      "mode": "unique",
+      "trigger": "use"
      },
      "priority": "nice"
     }
