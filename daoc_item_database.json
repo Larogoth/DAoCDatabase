@@ -1218434,6 +1218434,119 @@
     }
   },
   {
+    "id": "53f7c068-e713-42a7-9f60-63d67ee74b58",
+    "name": "25th Anniversary Cloak of Might",
+    "slot": "Cloak",
+    "level": 50,
+    "bonus_level": 50,
+    "realm": 1,
+    "usable_by": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      19,
+      33,
+      60
+    ],
+    "bonuses": [
+      {
+        "type": 1,
+        "subType": 0,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 3,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 2,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 3,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 300,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 4,
+        "subType": 0,
+        "value": 75,
+        "isInherent": false
+      },
+      {
+        "type": 80,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 35,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 6,
+        "label": "Ability",
+        "trigger": "Use",
+        "name": "Physical Health Buffer",
+        "description": "Target: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-"
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 6,
+        "label": "Ability",
+        "trigger": "Use",
+        "name": "Unknown Ability",
+        "description": "Target does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\nThis spell is cast when the item is used."
+      }
+    ],
+    "utility": 148.75,
+    "category": 5,
+    "delve_text": "25th Anniversary Cloak of Might\nMagical Bonuses:\n- Strength: 25 pts\n- Quickness: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Strength ): 5\n- Mythical Stat Cap ( Quickness ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL melee weapon skills: 5 pts\n- Hits: 75 pts\n- Mythical Physical Defense: 5\nLevel Requirement: 50 Level\nConversion: 5% of all damage dealt heals your\npower and endurance instead.\nMagical Ability:\nFunction: defensive proc\nTarget: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-spell:\nAdds a shield to the recipient which will\ntemporarily absorb some of the damage type\nspecified.\nAbsorption: 100%\nValue: 150\nTarget: Self\nDuration: 45 sec\nCasting time: instant\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: combat bonus\nTarget does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\n- This spell is cast when the item is used.\n- Requirement: not usable by Infiltrators\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 50",
+    "source": "manual",
+    "lastModified": 1794698811098,
+    "isCrafted": false
+  },
+  {
     "id": "541",
     "name": "Porcine Amulet",
     "slot": "Neck",
@@ -1630541,6 +1630654,96 @@
     "source": "manual"
   },
   {
+    "id": "71dcf903-0122-4bef-88d4-ae3eb5585b38",
+    "name": "25th Anniversary Cloak of Magic",
+    "slot": "Cloak",
+    "level": 50,
+    "bonus_level": 50,
+    "realm": 0,
+    "bonuses": [
+      {
+        "type": 1,
+        "subType": 10,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 1,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 2,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 10,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 1,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 303,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 9,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 35,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 32,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 2,
+        "label": "Ability",
+        "trigger": "Proc on Hit",
+        "name": "Unknown Ability",
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type."
+      }
+    ],
+    "ability_tags": [
+      "fn_direct",
+      "Ability: Direct Damage"
+    ],
+    "utility": 180,
+    "category": 5,
+    "delve_text": "25th Anniversary Cloak of Magic\nMagical Bonuses:\n- Acuity: 25 pts\n- Dexterity: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Acuity ): 5\n- Mythical Stat Cap ( Dexterity ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL magic skills: 5 pts\nLevel Requirement: 50 Level\nReduces enemy target's resistances versus all magic\ndamage by 5%. Only resists gained from items are\nreduced.\nBonus to magic damage: 5%\nConversion: 5% of all damage dealt heals your power and\nendurance instead.\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.",
+    "source": "manual",
+    "lastModified": 1794699334371
+  },
+  {
     "id": "720",
     "name": "Sharp Snake Fang",
     "slot": "Off Hand",
@@ -1677116,6 +1677319,101 @@
     "category": 0,
     "delve_text": "",
     "source": "manual"
+  },
+  {
+    "id": "a4fa8c6d-b981-40a9-8835-6a24f05c0a57",
+    "name": "25th Anniversary Cloak of Subterfuge",
+    "slot": "Cloak",
+    "level": 50,
+    "bonus_level": 50,
+    "realm": 0,
+    "bonuses": [
+      {
+        "type": 1,
+        "subType": 0,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 1,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 3,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 1,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 3,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 301,
+        "value": 3,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 300,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 35,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 32,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 6,
+        "label": "Ability",
+        "trigger": "Use",
+        "name": "Physical Health Buffer",
+        "description": "Target: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-"
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 6,
+        "label": "Ability",
+        "trigger": "Use",
+        "name": "Unknown Ability",
+        "description": "Target does additional damage with melee attacks.\nValue: 15%\nTarget: Self\nDuration: 15 sec\nCasting time: instant\n\nAlso casts:\nTarget: Realm\nRange: 1500\nCasting time: instant\nThis spell is cast when the item is used."
+      }
+    ],
+    "utility": 165,
+    "category": 5,
+    "delve_text": "25th Anniversary Cloak of Subterfuge\nMagical Bonuses:\n- Strength: 25 pts\n- Dexterity: 25 pts\n- Quickness: 25 pts\n- Mythical Stat Cap ( Strength ): 5\n- Mythical Stat Cap ( Dexterity ): 5\n- Mythical Stat Cap ( Quickness ): 5\n- ALL dual wielding skills: 3 pts\n- ALL melee weapon skills: 5 pts\nLevel Requirement: 50 Level\nConversion: 5% of all damage dealt heals your power and\nendurance instead.\nReduces enemy target's resistances versus all magic\ndamage by 4%. Only resists gained from items are\nreduced.\nMagical Ability:\nFunction: defensive proc\nTarget: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-spell:\nAdds a shield to the recipient which will temporarily\nabsorb some of the damage type specified.\nAbsorption: 100%\nValue: 150\nTarget: Self\nDuration: 45 sec\nCasting time: instant\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: melee damage boost\nTarget does additional damage with melee attacks.\nValue: 15%\nTarget: Self\nDuration: 15 sec\nCasting time: instant\nAlso casts:\nTarget: Realm\nRange: 1500\nCasting time: instant\n- This spell is cast when the item is used.\nCan use item every: 10: 00 min",
+    "source": "manual",
+    "lastModified": 1794699277235
   },
   {
     "id": "b2caa0d9-160c-4fe2-aad1-f5233bd42f3f",
