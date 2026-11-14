@@ -1,0 +1,1054 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-14T00:09:34.954Z",
+ "presets": [
+  {
+   "id": "6||eight",
+   "classId": 6,
+   "role": "",
+   "groupSize": "eight",
+   "label": "Any role · 8-man",
+   "goals": [
+    {
+     "statName": "Constitution",
+     "targetValue": 111,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 122
+    },
+    {
+     "statName": "Piety",
+     "targetValue": 102,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 438,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Smiting",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Rejuvenation",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Enhancements",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Magic Damage",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Duration",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Buff Bonus",
+     "targetValue": 13,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Power Pool",
+     "targetValue": 30,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Resistance Piercing",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Arcane Siphon",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Power Regen",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Replenish Power",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Remove Negative Effect",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 8,
+   "authors": 8,
+   "pool": "role",
+   "note": "Only 2 templates for Any role · 8-man — learning from all this class's templates (any group size) (8).",
+   "updatedAt": 0
+  },
+  {
+   "id": "6||",
+   "classId": 6,
+   "role": "",
+   "label": "Any role · Any group size",
+   "goals": [
+    {
+     "statName": "Constitution",
+     "targetValue": 111,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 122
+    },
+    {
+     "statName": "Piety",
+     "targetValue": 102,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 438,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Smiting",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Rejuvenation",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Enhancements",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Magic Damage",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Duration",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Buff Bonus",
+     "targetValue": 13,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Power Pool",
+     "targetValue": 30,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Resistance Piercing",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Arcane Siphon",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Power Regen",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Replenish Power",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Remove Negative Effect",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 8,
+   "authors": 8,
+   "pool": "exact",
+   "updatedAt": 0
+  },
+  {
+   "id": "6|smiting|solo",
+   "classId": 6,
+   "role": "Smiting",
+   "groupSize": "solo",
+   "label": "Smiting · Solo / duo",
+   "goals": [
+    {
+     "statName": "Constitution",
+     "targetValue": 111,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 122
+    },
+    {
+     "statName": "Piety",
+     "targetValue": 102,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 438,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Smiting",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Rejuvenation",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Enhancements",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Magic Damage",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Duration",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Buff Bonus",
+     "targetValue": 13,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Power Pool",
+     "targetValue": 30,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Resistance Piercing",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Arcane Siphon",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Power Regen",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Replenish Power",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Remove Negative Effect",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 8,
+   "authors": 8,
+   "pool": "class",
+   "note": "Only 1 template for Smiting · Solo / duo — learning from every template of this class (8).",
+   "updatedAt": 0
+  },
+  {
+   "id": "6|rejuvenation|eight",
+   "classId": 6,
+   "role": "Rejuvenation",
+   "groupSize": "eight",
+   "label": "Rejuvenation · 8-man",
+   "goals": [
+    {
+     "statName": "Constitution",
+     "targetValue": 111,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 122
+    },
+    {
+     "statName": "Piety",
+     "targetValue": 102,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 438,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Smiting",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Rejuvenation",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Enhancements",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Magic Damage",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Duration",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Buff Bonus",
+     "targetValue": 13,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Power Pool",
+     "targetValue": 30,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Resistance Piercing",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Arcane Siphon",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Power Regen",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Replenish Power",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Remove Negative Effect",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 8,
+   "authors": 8,
+   "pool": "class",
+   "note": "Only 1 template for Rejuvenation · 8-man — learning from every template of this class (8).",
+   "updatedAt": 0
+  },
+  {
+   "id": "6|cleric - solo|solo",
+   "classId": 6,
+   "role": "Cleric - Solo",
+   "groupSize": "solo",
+   "label": "Cleric - Solo · Solo / duo",
+   "goals": [
+    {
+     "statName": "Constitution",
+     "targetValue": 111,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 122
+    },
+    {
+     "statName": "Piety",
+     "targetValue": 102,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 438,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Smiting",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Rejuvenation",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Enhancements",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Magic Damage",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Range",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Spell Duration",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Buff Bonus",
+     "targetValue": 13,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Power Pool",
+     "targetValue": 30,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Resistance Piercing",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Arcane Siphon",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Power Regen",
+     "targetValue": 15,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 180,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Replenish Power",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Speed Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Remove Negative Effect",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 8,
+   "authors": 8,
+   "pool": "class",
+   "note": "Only 1 template for Cleric - Solo · Solo / duo — learning from every template of this class (8).",
+   "updatedAt": 0
+  }
+ ]
+}

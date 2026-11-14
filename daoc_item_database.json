@@ -865866,7 +865866,9 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -865906,7 +865908,7 @@
       },
       {
         "type": 5,
-        "subType": 16,
+        "subType": 0,
         "value": 5,
         "isInherent": false
       },
@@ -865918,12 +865920,12 @@
       }
     ],
     "abilities": [],
+    "ability_tags": [],
     "utility": 50,
-    "category": 5,
+    "absorption": 0,
+    "category": 0,
     "delve_text": "",
-    "source": "manual",
-    "_normName": "dreadguard ascended tome of fiends",
-    "lastModified": 1794479198778
+    "source": "manual"
   },
   {
     "id": "45827",
@@ -1677259,7 +1677261,9 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677299,7 +1677303,7 @@
       },
       {
         "type": 5,
-        "subType": 16,
+        "subType": 0,
         "value": 5,
         "isInherent": false
       },
@@ -1677311,12 +1677315,12 @@
       }
     ],
     "abilities": [],
+    "ability_tags": [],
     "utility": 44,
-    "category": 5,
+    "absorption": 0,
+    "category": 0,
     "delve_text": "",
-    "source": "manual",
-    "_normName": "hungering ascended tome of fiends",
-    "lastModified": 1794479237050
+    "source": "manual"
   },
   {
     "id": "e5a0fcde-b469-437c-90b1-edc29d8611bf",
@@ -1677324,7 +1677328,9 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677352,7 +1677358,7 @@
       },
       {
         "type": 5,
-        "subType": 11,
+        "subType": 17,
         "value": 5,
         "isInherent": false
       },
@@ -1677376,12 +1677382,12 @@
       }
     ],
     "abilities": [],
+    "ability_tags": [],
     "utility": 88,
-    "category": 5,
+    "absorption": 0,
+    "category": 0,
     "delve_text": "",
-    "source": "manual",
-    "_normName": "angelic ascended circlet of rhiannon",
-    "lastModified": 1794479608752
+    "source": "manual"
   },
   {
     "id": "f17ebfe6-8ae5-4b63-9ea1-1834be14af77",
@@ -1677482,7 +1677488,9 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -1677522,18 +1677530,18 @@
       },
       {
         "type": 5,
-        "subType": 16,
+        "subType": 0,
         "value": 5,
         "isInherent": false
       }
     ],
     "abilities": [],
+    "ability_tags": [],
     "utility": 50,
-    "category": 5,
+    "absorption": 0,
+    "category": 0,
     "delve_text": "",
-    "source": "manual",
-    "_normName": "soulforged ascended tome of fiends",
-    "lastModified": 1794479269187
+    "source": "manual"
   },
   {
     "id": "f598ec49-fc16-4956-b820-8eaaadab986a",
@@ -1677541,7 +1677549,9 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677587,12 +1677597,12 @@
       }
     ],
     "abilities": [],
+    "ability_tags": [],
     "utility": 20,
+    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual",
-    "_normName": "fearmongering ascended tome of fiends",
-    "lastModified": 1794479212338
+    "source": "manual"
   },
   {
     "id": "f743eb4a-0ab1-4c20-b61c-759cfb2ef6b2",
@@ -1677600,7 +1677610,9 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677640,7 +1677652,7 @@
       },
       {
         "type": 5,
-        "subType": 16,
+        "subType": 0,
         "value": 5,
         "isInherent": false
       },
@@ -1677652,12 +1677664,12 @@
       }
     ],
     "abilities": [],
+    "ability_tags": [],
     "utility": 60,
+    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual",
-    "_normName": "demonforged ascended tome of fiends",
-    "lastModified": 1794479187009
+    "source": "manual"
   },
   {
     "id": "fcf3a8e4-47c4-4e48-a232-e17654a239e8",
