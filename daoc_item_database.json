@@ -399853,9 +399853,7 @@
     "slot": "Main Hand",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
@@ -399906,13 +399904,31 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 1,
+        "label": "Ability",
+        "name": "Attack Speed Decrease",
+        "trigger": "Proc on Strike"
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 1,
+        "label": "Ability",
+        "name": "Vision Of Malice",
+        "trigger": "Proc on Strike"
+      }
+    ],
     "ability_tags": [
-      "Ability: Offensive Proc",
-      "fn_off_proc"
+      "fn_combat_attack_speed_decrease",
+      "Ability: Attack Speed Decrease",
+      "fn_nstat_perc",
+      "Ability: Vision Of Malice"
     ],
     "utility": 133.33,
-    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -399922,7 +399938,9 @@
       "skill_used": 1
     },
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "forged starlight falchion",
+    "lastModified": 1794740902588
   },
   {
     "id": "24012",
@@ -1662397,7 +1662415,7 @@
     "delve_text": "",
     "source": "manual",
     "_normName": "forged starlight cinquedea",
-    "lastModified": 1794720376961
+    "lastModified": 1794740935927
   },
   {
     "id": "9001",
