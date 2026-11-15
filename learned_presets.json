@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T01:33:04.750Z",
+ "generatedAt": "2026-11-15T02:53:08.654Z",
  "presets": [
   {
    "id": "9|dual wield|solo",
@@ -404,6 +404,15 @@
      "priority": "nice"
     },
     {
+     "statName": "Ability: Defensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "hit"
+     },
+     "priority": "nice"
+    },
+    {
      "statName": "Ability: Heal",
      "targetValue": 1,
      "abilitySecondaryFilters": {
@@ -453,15 +462,6 @@
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Defensive Proc",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique",
-      "trigger": "hit"
      },
      "priority": "nice"
     },
@@ -623,6 +623,15 @@
      "priority": "nice"
     },
     {
+     "statName": "Ability: Defensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "hit"
+     },
+     "priority": "nice"
+    },
+    {
      "statName": "Ability: Heal",
      "targetValue": 1,
      "abilitySecondaryFilters": {
@@ -655,15 +664,6 @@
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Defensive Proc",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique",
-      "trigger": "hit"
      },
      "priority": "nice"
     },
