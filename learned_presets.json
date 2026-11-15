@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T02:53:08.654Z",
+ "generatedAt": "2026-11-15T04:36:58.591Z",
  "presets": [
   {
    "id": "9|dual wield|solo",
@@ -99,16 +99,6 @@
     {
      "statName": "Toa Melee Speed",
      "targetValue": 10
-    },
-    {
-     "statName": "Toa Cast Speed",
-     "targetValue": 6,
-     "priority": "nice"
-    },
-    {
-     "statName": "Toa Spell Range",
-     "targetValue": 4,
-     "priority": "nice"
     },
     {
      "statName": "Toa Heal Bonus",
@@ -226,15 +216,6 @@
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Melee Absorption Debuff",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique",
-      "trigger": "use"
      },
      "priority": "nice"
     },
@@ -365,11 +346,6 @@
      "targetValue": 10
     },
     {
-     "statName": "Toa Cast Speed",
-     "targetValue": 6,
-     "priority": "nice"
-    },
-    {
      "statName": "Toa Heal Bonus",
      "targetValue": 10,
      "priority": "nice"
@@ -424,14 +400,6 @@
     },
     {
      "statName": "Ability: Heal All Over Time",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Melee Absorption Debuff",
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique"
@@ -579,16 +547,6 @@
      "targetValue": 10
     },
     {
-     "statName": "Toa Cast Speed",
-     "targetValue": 6,
-     "priority": "nice"
-    },
-    {
-     "statName": "Toa Spell Range",
-     "targetValue": 4,
-     "priority": "nice"
-    },
-    {
      "statName": "Toa Heal Bonus",
      "targetValue": 10,
      "priority": "nice"
@@ -664,15 +622,6 @@
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Melee Absorption Debuff",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique",
-      "trigger": "use"
      },
      "priority": "nice"
     },

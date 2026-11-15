@@ -1391580,21 +1391580,25 @@
       {
         "spell": 0,
         "position": 1,
-        "magic_type": 2,
+        "magic_type": 1,
         "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "(Increases Melee and Magic Damage by 10%.\nIncreases Damage Taken by 25%\nDuration: 80 Seconds)\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+        "name": "Resistance Decrease Lowers The Value",
+        "description": "(Increases Melee and Magic Damage by 10%.\nIncreases Damage Taken by 25%\nDuration: 80 Seconds)\nSpell has a chance of casting when this weapon\nstrikes an enemy.",
+        "trigger": "Proc on Strike"
       },
       {
         "spell": 0,
         "position": 2,
         "magic_type": 2,
         "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "of the target's resistance buffs or items to the\nlisted damage type.\nResistances lowered:\nSlash 20%, Spirit 30%, Heat 30%\nDuration: 10 seconds\nDamage: Essence\nTarget: Target)\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS\n4.3 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Slash\nEffective Damage: 16.5 DPS\nCannot be sold to merchants.\nBonus Level: 48"
+        "name": "Resistance Decrease",
+        "description": "of the target's resistance buffs or items to the\nlisted damage type.\nResistances lowered:\nSlash 20%, Spirit 30%, Heat 30%\nDuration: 10 seconds\nDamage: Essence\nTarget: Target)\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS\n4.3 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Slash\nEffective Damage: 16.5 DPS\nCannot be sold to merchants.\nBonus Level: 48",
+        "trigger": "Proc on Hit"
       }
+    ],
+    "ability_tags": [
+      "fn_nresistance",
+      "Ability: Resistance Decrease"
     ],
     "utility": 127.67,
     "category": 1,
@@ -1391607,8 +1391611,8 @@
     },
     "delve_text": "Dark Hallowed Soul Collector\nMagical Bonuses:\n- ALL melee weapon skills: 3 pts\n- ALL magic skills: 5 pts\n- Piety: 40 pts\n- Strength: 21 pts\n- Dexterity: 18 pts\n- Shield: -5 pts\nLevel Requirement: 50 Level\nBonus to Strength attribute bonus cap: 5\nBonus to Dexterity attribute bonus cap: 5\nBonus to melee damage: 4%\nBonus to magic damage: 4%\nMagical Ability:\n(Increases Melee and Magic Damage by 10%.\nIncreases Damage Taken by 25%\nDuration: 80 Seconds)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\n(Function: resistance decrease Lowers the value\nof the target's resistance buffs or items to the\nlisted damage type.\nResistances lowered:\nSlash 20%, Spirit 30%, Heat 30%\nDuration: 10 seconds\nDamage: Essence\nTarget: Target)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS\n- 4.3 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Slash\n- Effective Damage: 16.5 DPS\nCannot be sold to merchants.\nBonus Level: 48",
     "source": "manual",
-    "lastModified": 1794708194153,
-    "isCrafted": false
+    "_normName": "dark hallowed soul collector",
+    "lastModified": 1794717404782
   },
   {
     "id": "6001",
@@ -1468522,20 +1468526,20 @@
       {
         "spell": 0,
         "position": 1,
-        "magic_type": 2,
+        "magic_type": 1,
         "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "Damages the target. A portion of damage is\nreturned to the caster as health, power, and\nendurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 60% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+        "name": "Omni-Lifedrain",
+        "description": "Damages the target. A portion of damage is\nreturned to the caster as health, power, and\nendurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 60% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy.",
+        "trigger": "Proc on Strike"
       },
       {
         "spell": 0,
         "position": 2,
-        "magic_type": 2,
+        "magic_type": 1,
         "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "Damages the target.\nDamage: 150\nTarget: Targeted\nRange: 1500\nPower cost: 28\nCasting time: 3.0 sec\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy. |\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n5.8 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Thrust"
+        "name": "Direct Damage",
+        "description": "Damages the target.\nDamage: 150\nTarget: Targeted\nRange: 1500\nPower cost: 28\nCasting time: 3.0 sec\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy. |\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n5.8 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Thrust",
+        "trigger": "Proc on Strike"
       }
     ],
     "ability_tags": [
@@ -1468555,8 +1468559,8 @@
     },
     "delve_text": "KY .\nDark Hallowed Bow\nMagical Bonuses:\n- ALL archery skills: 4 pts\n- Dexterity: 25 pts\n- Matter: 3%\n- Cold: 3%\n- Heat: 3%\nLevel Requirement: 45 Level\nBonus to Dexterity attribute bonus cap: 11\nBonus to spell range: 4%\nBonus to magic damage: 4%\nBonus to casting speed: 4%\nMagical Ability:\nFunction: omni-lifedrain\nDamages the target. A portion of damage is\nreturned to the caster as health, power, and\nendurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 60% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\nFunction: direct damage\nDamages the target.\nDamage: 150\nTarget: Targeted\nRange: 1500\nPower cost: 28\nCasting time: 3.0 sec\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy. |\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 5.8 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Thrust",
     "source": "manual",
-    "lastModified": 1794708203103,
-    "isCrafted": false
+    "_normName": "dark hallowed bow",
+    "lastModified": 1794717225744
   },
   {
     "id": "6200",
@@ -1670922,7 +1670926,9 @@
     "slot": "Cloak",
     "level": 50,
     "bonus_level": 48,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 1,
@@ -1670991,29 +1670997,29 @@
         "position": 1,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
         "name": "Resistance Decrease",
-        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Matter\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nThis spell is cast when the item is used."
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Matter\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nThis spell is cast when the item is used.",
+        "trigger": "Use"
       },
       {
         "spell": 0,
         "position": 2,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
         "name": "Resistance Decrease",
-        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Spirit\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Energy\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nThis spell is cast when the item is used.\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 48"
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Spirit\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Energy\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nThis spell is cast when the item is used.\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 48",
+        "trigger": "Use"
       }
     ],
     "ability_tags": [
-      "fn_nresistance",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "fn_nresistance"
     ],
     "utility": 180,
+    "absorption": 0,
     "category": 5,
     "delve_text": "25th Anniversary Cloak of Magic\nMagical Bonuses:\n- Acuity: 25 pts\n- Dexterity: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Acuity ): 5\n- Mythical Stat Cap ( Dexterity ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL magic skills: 5 pts\nLevel Requirement: 50 Level\nReduces enemy target's resistances versus all magic\ndamage by 5%. Only resists gained from items are\nreduced.\nBonus to magic damage: 5%\nConversion: 5% of all damage dealt heals your power and\nendurance instead.\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Matter\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Spirit\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Energy\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\n- This spell is cast when the item is used.\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 48",
-    "source": "manual",
-    "lastModified": 1794706192217
+    "source": "manual"
   },
   {
     "id": "971",
@@ -1677646,9 +1677652,7 @@
     "slot": "Main Hand",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 1,
@@ -1677709,30 +1677713,29 @@
       {
         "spell": 0,
         "position": 1,
-        "magic_type": 2,
+        "magic_type": 1,
         "label": "Ability",
-        "name": "Unknown Ability",
+        "name": "Omni-Lifedrain",
         "description": "Damages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy.",
-        "trigger": "Proc on Hit"
+        "trigger": "Proc on Strike"
       },
       {
         "spell": 0,
         "position": 2,
-        "magic_type": 2,
+        "magic_type": 1,
         "label": "Ability",
-        "name": "Unknown Ability",
+        "name": "Arrogance",
         "description": "[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Slash\nEffective Damage: 16.2 DPS",
-        "trigger": "Proc on Hit"
+        "trigger": "Proc on Strike"
       }
     ],
     "ability_tags": [
-      "Ability: Omni-Lifedrain",
       "fn_olifedrain",
-      "Ability: Direct Damage",
-      "fn_direct"
+      "Ability: Omni-Lifedrain",
+      "fn_narrogant",
+      "Ability: Arrogance"
     ],
     "utility": 131.33,
-    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -1677742,7 +1677745,9 @@
       "skill_used": 1
     },
     "delve_text": "Rila: Dark Hallowed Sword\nMagical Bonuses:\n- Quickness: 13 pts\n- Dexterity: 13 pts\n- Strength: 15 pts\n- ALL melee weapon skills: 4 pts\nLevel Requirement: 50 Level\nBonus to melee combat speed: 4%\nBonus to style damage: 4%\nBonus to melee damage: 4%\nBonus to Quickness attribute bonus cap: 6\nBonus to Strength attribute bonus cap: 6\nMagical Ability:\nFunction: omni-lifedrain\nDamages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\n[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 4.5 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Slash\n- Effective Damage: 16.2 DPS",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "dark hallowed sword",
+    "lastModified": 1794717355249
   },
   {
     "id": "b5c1fbc6-7faa-48fe-baa6-6d2d89ca9ba4",
@@ -1678057,7 +1678062,9 @@
     "slot": "Jewel",
     "level": 50,
     "bonus_level": 42,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 5,
@@ -1678086,7 +1678093,8 @@
       {
         "type": 14,
         "subType": 0,
-        "value": 25
+        "value": 25,
+        "isInherent": false
       }
     ],
     "abilities": [
@@ -1678095,21 +1678103,20 @@
         "position": 1,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
         "name": "Unknown Ability",
-        "description": "1\n30 Charges\n30 Max E\nInflicts damage to the target repeatedly over a\ngiven time period.\nDamage per tick: 64\nTarget: Targeted\nRange: 300\nDuration: 20 sec\nFrequency: 4.0 sec\nCasting time: instant\nDamage: Energy\nThis spell is cast when the item is used."
+        "description": "1\n30 Charges\n30 Max E\nInflicts damage to the target repeatedly over a\ngiven time period.\nDamage per tick: 64\nTarget: Targeted\nRange: 300\nDuration: 20 sec\nFrequency: 4.0 sec\nCasting time: instant\nDamage: Energy\nThis spell is cast when the item is used.",
+        "trigger": "Use"
       }
     ],
     "ability_tags": [
-      "fn_direct",
-      "Ability: Direct Damage"
+      "Ability: Direct Damage",
+      "fn_direct"
     ],
     "utility": 40,
+    "absorption": 0,
     "category": 5,
     "delve_text": "KY .\nGreater Stardrop |\nMagical Bonuses: 1\n- Slash: -10% |\n- Crush: -10%\n- Thrust: -10%\nLevel Requirement: 50 Level\nBonus to stat enhancement spell effectiveness:\n25%\nBonus to duration of spells: 25%\nJ\nCharged Magic Ability: 1\n- 30 Charges\n- 30 Max E\nFunction: dmg-over-time ;\nInflicts damage to the target repeatedly over a\ngiven time period.\nDamage per tick: 64\nTarget: Targeted\nRange: 300\nDuration: 20 sec\nFrequency: 4.0 sec\nCasting time: instant\nDamage: Energy\n- This spell is cast when the item is used.\nCan use item every: 1: 30 min\nCannot be sold to merchants.\nBonus Level: 42",
-    "source": "manual",
-    "lastModified": 1794708117275,
-    "isCrafted": false
+    "source": "manual"
   },
   {
     "id": "e5a0fcde-b469-437c-90b1-edc29d8611bf",
