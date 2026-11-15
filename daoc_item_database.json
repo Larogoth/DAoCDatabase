@@ -1218439,25 +1218439,7 @@
     "slot": "Cloak",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
-    "realm": 1,
-    "usable_by": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      10,
-      11,
-      12,
-      13,
-      19,
-      33,
-      60
-    ],
+    "realm": 0,
     "bonuses": [
       {
         "type": 1,
@@ -1218541,14 +1218523,14 @@
       }
     ],
     "ability_tags": [
-      "Ability: Defensive Proc",
-      "Ability: Combat Bonus"
+      "fn_def_proc",
+      "Ability: Defensive Proc"
     ],
     "utility": 148.75,
-    "absorption": 0,
     "category": 5,
     "delve_text": "25th Anniversary Cloak of Might\nMagical Bonuses:\n- Strength: 25 pts\n- Quickness: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Strength ): 5\n- Mythical Stat Cap ( Quickness ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL melee weapon skills: 5 pts\n- Hits: 75 pts\n- Mythical Physical Defense: 5\nLevel Requirement: 50 Level\nConversion: 5% of all damage dealt heals your\npower and endurance instead.\nMagical Ability:\nFunction: defensive proc\nTarget: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-spell:\nAdds a shield to the recipient which will\ntemporarily absorb some of the damage type\nspecified.\nAbsorption: 100%\nValue: 150\nTarget: Self\nDuration: 45 sec\nCasting time: instant\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: combat bonus\nTarget does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\n- This spell is cast when the item is used.\n- Requirement: not usable by Infiltrators\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 50",
-    "source": "manual"
+    "source": "manual",
+    "lastModified": 1794718549555
   },
   {
     "id": "541",
