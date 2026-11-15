@@ -865866,9 +865866,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -865908,7 +865906,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -865919,13 +865917,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 50,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "dreadguard ascended tome of fiends",
+    "lastModified": 1794706260530
   },
   {
     "id": "45827",
@@ -1218439,6 +1218436,7 @@
     "slot": "Cloak",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 1,
     "usable_by": [
       1,
@@ -1218525,26 +1218523,29 @@
         "position": 1,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
-        "name": "Physical Health Buffer",
-        "description": "Target: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-"
+        "name": "Defensive Proc",
+        "description": "Target: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-",
+        "trigger": "Use"
       },
       {
         "spell": 0,
         "position": 2,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
-        "name": "Unknown Ability",
-        "description": "Target does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\nThis spell is cast when the item is used."
+        "name": "Combat Bonus",
+        "description": "Target does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\nThis spell is cast when the item is used.",
+        "trigger": "Use"
       }
     ],
+    "ability_tags": [
+      "Ability: Defensive Proc",
+      "Ability: Combat Bonus"
+    ],
     "utility": 148.75,
+    "absorption": 0,
     "category": 5,
     "delve_text": "25th Anniversary Cloak of Might\nMagical Bonuses:\n- Strength: 25 pts\n- Quickness: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Strength ): 5\n- Mythical Stat Cap ( Quickness ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL melee weapon skills: 5 pts\n- Hits: 75 pts\n- Mythical Physical Defense: 5\nLevel Requirement: 50 Level\nConversion: 5% of all damage dealt heals your\npower and endurance instead.\nMagical Ability:\nFunction: defensive proc\nTarget: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-spell:\nAdds a shield to the recipient which will\ntemporarily absorb some of the damage type\nspecified.\nAbsorption: 100%\nValue: 150\nTarget: Self\nDuration: 45 sec\nCasting time: instant\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: combat bonus\nTarget does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\n- This spell is cast when the item is used.\n- Requirement: not usable by Infiltrators\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 50",
-    "source": "manual",
-    "lastModified": 1794698811098,
-    "isCrafted": false
+    "source": "manual"
   },
   {
     "id": "541",
@@ -1630654,96 +1630655,6 @@
     "source": "manual"
   },
   {
-    "id": "71dcf903-0122-4bef-88d4-ae3eb5585b38",
-    "name": "25th Anniversary Cloak of Magic",
-    "slot": "Cloak",
-    "level": 50,
-    "bonus_level": 50,
-    "realm": 0,
-    "bonuses": [
-      {
-        "type": 1,
-        "subType": 10,
-        "value": 25,
-        "isInherent": false
-      },
-      {
-        "type": 1,
-        "subType": 1,
-        "value": 25,
-        "isInherent": false
-      },
-      {
-        "type": 1,
-        "subType": 2,
-        "value": 25,
-        "isInherent": false
-      },
-      {
-        "type": 64,
-        "subType": 10,
-        "value": 5,
-        "isInherent": false
-      },
-      {
-        "type": 64,
-        "subType": 1,
-        "value": 5,
-        "isInherent": false
-      },
-      {
-        "type": 64,
-        "subType": 2,
-        "value": 5,
-        "isInherent": false
-      },
-      {
-        "type": 2,
-        "subType": 303,
-        "value": 5,
-        "isInherent": false
-      },
-      {
-        "type": 9,
-        "subType": 0,
-        "value": 5,
-        "isInherent": false
-      },
-      {
-        "type": 35,
-        "subType": 2,
-        "value": 5,
-        "isInherent": false
-      },
-      {
-        "type": 32,
-        "subType": 0,
-        "value": 5,
-        "isInherent": false
-      }
-    ],
-    "abilities": [
-      {
-        "spell": 0,
-        "position": 1,
-        "magic_type": 2,
-        "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type."
-      }
-    ],
-    "ability_tags": [
-      "fn_direct",
-      "Ability: Direct Damage"
-    ],
-    "utility": 180,
-    "category": 5,
-    "delve_text": "25th Anniversary Cloak of Magic\nMagical Bonuses:\n- Acuity: 25 pts\n- Dexterity: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Acuity ): 5\n- Mythical Stat Cap ( Dexterity ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL magic skills: 5 pts\nLevel Requirement: 50 Level\nReduces enemy target's resistances versus all magic\ndamage by 5%. Only resists gained from items are\nreduced.\nBonus to magic damage: 5%\nConversion: 5% of all damage dealt heals your power and\nendurance instead.\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.",
-    "source": "manual",
-    "lastModified": 1794699334371
-  },
-  {
     "id": "720",
     "name": "Sharp Snake Fang",
     "slot": "Off Hand",
@@ -1670797,6 +1670708,105 @@
     }
   },
   {
+    "id": "9706610c-b21f-4437-bec3-090fe0958cec",
+    "name": "25th Anniversary Cloak of Magic",
+    "slot": "Cloak",
+    "level": 50,
+    "bonus_level": 48,
+    "realm": 0,
+    "bonuses": [
+      {
+        "type": 1,
+        "subType": 10,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 1,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 2,
+        "value": 25,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 10,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 1,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 64,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 303,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 9,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 35,
+        "subType": 2,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 32,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 6,
+        "label": "Ability",
+        "trigger": "Use",
+        "name": "Resistance Decrease",
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Matter\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nThis spell is cast when the item is used."
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 6,
+        "label": "Ability",
+        "trigger": "Use",
+        "name": "Resistance Decrease",
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Spirit\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Energy\n- Resists from spell-based buffs reduced 37%\n- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nThis spell is cast when the item is used.\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 48"
+      }
+    ],
+    "ability_tags": [
+      "fn_nresistance",
+      "Ability: Resistance Decrease"
+    ],
+    "utility": 180,
+    "category": 5,
+    "delve_text": "25th Anniversary Cloak of Magic\nMagical Bonuses:\n- Acuity: 25 pts\n- Dexterity: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Acuity ): 5\n- Mythical Stat Cap ( Dexterity ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL magic skills: 5 pts\nLevel Requirement: 50 Level\nReduces enemy target's resistances versus all magic\ndamage by 5%. Only resists gained from items are\nreduced.\nBonus to magic damage: 5%\nConversion: 5% of all damage dealt heals your power and\nendurance instead.\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Heat\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Matter\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Cold\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Matter\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Energy\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Body\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Spirit\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 50\nResist decreased: Energy\n-- Resists from spell-based buffs reduced 37%\n-- Resists from item-based buffs reduced 18%\nTarget: Targeted\nRange: 1500\nDuration: 15 sec\nCasting time: instant\nDamage: Cold\n- This spell is cast when the item is used.\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 48",
+    "source": "manual",
+    "lastModified": 1794706192217
+  },
+  {
     "id": "971",
     "name": "Glowing Ball of Mud",
     "slot": "Jewel",
@@ -1677259,9 +1677269,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677312,13 +1677320,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 88,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "soulbound ascended tome of fiends",
+    "lastModified": 1794706278197
   },
   {
     "id": "a4fa8c6d-b981-40a9-8835-6a24f05c0a57",
@@ -1677326,7 +1677333,9 @@
     "slot": "Cloak",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 1,
@@ -1677395,25 +1677404,29 @@
         "position": 1,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
-        "name": "Physical Health Buffer",
-        "description": "Target: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-"
+        "name": "Defensive Proc",
+        "description": "Target: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-",
+        "trigger": "Use"
       },
       {
         "spell": 0,
         "position": 2,
         "magic_type": 6,
         "label": "Ability",
-        "trigger": "Use",
-        "name": "Unknown Ability",
-        "description": "Target does additional damage with melee attacks.\nValue: 15%\nTarget: Self\nDuration: 15 sec\nCasting time: instant\n\nAlso casts:\nTarget: Realm\nRange: 1500\nCasting time: instant\nThis spell is cast when the item is used."
+        "name": "Melee Damage Boost",
+        "description": "Target does additional damage with melee attacks.\nValue: 15%\nTarget: Self\nDuration: 15 sec\nCasting time: instant\n\nAlso casts:\nTarget: Realm\nRange: 1500\nCasting time: instant\nThis spell is cast when the item is used.",
+        "trigger": "Use"
       }
     ],
+    "ability_tags": [
+      "Ability: Defensive Proc",
+      "Ability: Melee Damage Boost"
+    ],
     "utility": 165,
+    "absorption": 0,
     "category": 5,
     "delve_text": "25th Anniversary Cloak of Subterfuge\nMagical Bonuses:\n- Strength: 25 pts\n- Dexterity: 25 pts\n- Quickness: 25 pts\n- Mythical Stat Cap ( Strength ): 5\n- Mythical Stat Cap ( Dexterity ): 5\n- Mythical Stat Cap ( Quickness ): 5\n- ALL dual wielding skills: 3 pts\n- ALL melee weapon skills: 5 pts\nLevel Requirement: 50 Level\nConversion: 5% of all damage dealt heals your power and\nendurance instead.\nReduces enemy target's resistances versus all magic\ndamage by 4%. Only resists gained from items are\nreduced.\nMagical Ability:\nFunction: defensive proc\nTarget: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-spell:\nAdds a shield to the recipient which will temporarily\nabsorb some of the damage type specified.\nAbsorption: 100%\nValue: 150\nTarget: Self\nDuration: 45 sec\nCasting time: instant\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: melee damage boost\nTarget does additional damage with melee attacks.\nValue: 15%\nTarget: Self\nDuration: 15 sec\nCasting time: instant\nAlso casts:\nTarget: Realm\nRange: 1500\nCasting time: instant\n- This spell is cast when the item is used.\nCan use item every: 10: 00 min",
-    "source": "manual",
-    "lastModified": 1794699277235
+    "source": "manual"
   },
   {
     "id": "b2caa0d9-160c-4fe2-aad1-f5233bd42f3f",
@@ -1677421,7 +1677434,9 @@
     "slot": "Main Hand",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 1,
@@ -1677484,27 +1677499,28 @@
         "position": 1,
         "magic_type": 2,
         "label": "Ability",
-        "trigger": "Proc on Hit",
         "name": "Unknown Ability",
-        "description": "Damages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+        "description": "Damages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\nSpell has a chance of casting when this weapon\nstrikes an enemy.",
+        "trigger": "Proc on Hit"
       },
       {
         "spell": 0,
         "position": 2,
         "magic_type": 2,
         "label": "Ability",
-        "trigger": "Proc on Hit",
         "name": "Unknown Ability",
-        "description": "[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Slash\nEffective Damage: 16.2 DPS"
+        "description": "[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition\nDamage Type: Slash\nEffective Damage: 16.2 DPS",
+        "trigger": "Proc on Hit"
       }
     ],
     "ability_tags": [
-      "fn_olifedrain",
       "Ability: Omni-Lifedrain",
-      "fn_direct",
-      "Ability: Direct Damage"
+      "fn_olifedrain",
+      "Ability: Direct Damage",
+      "fn_direct"
     ],
     "utility": 131.33,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -1677514,9 +1677530,7 @@
       "skill_used": 1
     },
     "delve_text": "Rila: Dark Hallowed Sword\nMagical Bonuses:\n- Quickness: 13 pts\n- Dexterity: 13 pts\n- Strength: 15 pts\n- ALL melee weapon skills: 4 pts\nLevel Requirement: 50 Level\nBonus to melee combat speed: 4%\nBonus to style damage: 4%\nBonus to melee damage: 4%\nBonus to Quickness attribute bonus cap: 6\nBonus to Strength attribute bonus cap: 6\nMagical Ability:\nFunction: omni-lifedrain\nDamages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\n[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 4.5 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Slash\n- Effective Damage: 16.2 DPS",
-    "source": "manual",
-    "lastModified": 1794663670250,
-    "_normName": "rila: dark hallowed sword"
+    "source": "manual"
   },
   {
     "id": "b5c1fbc6-7faa-48fe-baa6-6d2d89ca9ba4",
@@ -1677662,7 +1677676,9 @@
     "slot": "Off Hand",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
@@ -1677725,21 +1677741,26 @@
         "position": 1,
         "magic_type": 2,
         "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 150\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+        "name": "Resistance Decrease",
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 150\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nSpell has a chance of casting when this weapon\nstrikes an enemy.",
+        "trigger": "Proc on Hit"
       },
       {
         "spell": 0,
         "position": 2,
         "magic_type": 2,
         "label": "Ability",
-        "trigger": "Proc on Hit",
-        "name": "Unknown Ability",
-        "description": "Inflicts a wasting disease on the target that slows it,\nweakens it, and inhibits heal spells.\nTarget: Targeted\nRange: 1500\nDuration: 10 sec\nCasting time: instant\nDamage: Body\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition"
+        "name": "Disease",
+        "description": "Inflicts a wasting disease on the target that slows it,\nweakens it, and inhibits heal spells.\nTarget: Targeted\nRange: 1500\nDuration: 10 sec\nCasting time: instant\nDamage: Body\nSpell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n16.5 Base DPS (16.2 Clamped DPS)\n4.5 Weapon Speed\n100% Quality / 100% Condition",
+        "trigger": "Proc on Hit"
       }
     ],
+    "ability_tags": [
+      "Ability: Resistance Decrease",
+      "Ability: Disease"
+    ],
     "utility": 131.33,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -1677749,8 +1677770,7 @@
       "skill_used": 1
     },
     "delve_text": "Dark Hallowed Ripper\nMagical Bonuses:\n- ALL dual wielding skills: 4 pts\n- Strength: 15 pts\n- Dexterity: 13 pts\n- Quickness: 13 pts\nLevel Requirement: 50 Level\nBonus to Strength attribute bonus cap: 6\nBonus to Quickness attribute bonus cap: 6\nBonus to melee damage: 4%\nBonus to style damage: 4%\nBonus to melee combat speed: 4%\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 150\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\nFunction: disease\nInflicts a wasting disease on the target that slows it,\nweakens it, and inhibits heal spells.\nTarget: Targeted\nRange: 1500\nDuration: 10 sec\nCasting time: instant\nDamage: Body\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 4.5 Weapon Speed\n- 100% Quality / 100% Condition",
-    "source": "manual",
-    "lastModified": 1794662697461
+    "source": "manual"
   },
   {
     "id": "ce194436-bb6d-4082-9642-0da3708da262",
@@ -1677758,9 +1677778,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677800,7 +1677818,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -1677811,13 +1677829,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 44,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "hungering ascended tome of fiends",
+    "lastModified": 1794706377076
   },
   {
     "id": "e5a0fcde-b469-437c-90b1-edc29d8611bf",
@@ -1677985,9 +1678002,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -1678027,18 +1678042,17 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 50,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "soulforged ascended tome of fiends",
+    "lastModified": 1794706284740
   },
   {
     "id": "f598ec49-fc16-4956-b820-8eaaadab986a",
@@ -1678046,9 +1678060,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1678093,13 +1678105,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 20,
-    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "fearmongering ascended tome of fiends",
+    "lastModified": 1794706271975
   },
   {
     "id": "f743eb4a-0ab1-4c20-b61c-759cfb2ef6b2",
@@ -1678107,9 +1678118,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1678149,7 +1678158,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -1678160,13 +1678169,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 60,
-    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "demonforged ascended tome of fiends",
+    "lastModified": 1794706252313
   },
   {
     "id": "fcf3a8e4-47c4-4e48-a232-e17654a239e8",

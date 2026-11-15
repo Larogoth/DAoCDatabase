@@ -1,13 +1,13 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T23:35:45.202Z",
+ "generatedAt": "2026-11-15T01:33:04.750Z",
  "presets": [
   {
-   "id": "9|slash|solo",
+   "id": "9|dual wield|solo",
    "classId": 9,
-   "role": "Slash",
+   "role": "Dual Wield",
    "groupSize": "solo",
-   "label": "Slash · Solo / duo",
+   "label": "Dual Wield · Solo / duo",
    "goals": [
     {
      "statName": "Strength",
@@ -20,12 +20,12 @@
     },
     {
      "statName": "Dexterity",
-     "targetValue": 43,
+     "targetValue": 53,
      "priority": "nice"
     },
     {
      "statName": "Quickness",
-     "targetValue": 74,
+     "targetValue": 75,
      "priority": "nice"
     },
     {
@@ -35,7 +35,7 @@
     },
     {
      "statName": "Resist - Crush",
-     "targetValue": 26
+     "targetValue": 28
     },
     {
      "statName": "Resist - Slash",
@@ -74,12 +74,12 @@
     },
     {
      "statName": "Skill - Slash",
-     "targetValue": 8,
+     "targetValue": 11,
      "priority": "nice"
     },
     {
      "statName": "Skill - Thrust",
-     "targetValue": 8,
+     "targetValue": 11,
      "priority": "nice"
     },
     {
@@ -89,7 +89,8 @@
     },
     {
      "statName": "Toa Melee Damage",
-     "targetValue": 10
+     "targetValue": 10,
+     "priority": "nice"
     },
     {
      "statName": "Toa Style Damage",
@@ -121,7 +122,8 @@
     },
     {
      "statName": "Conversion",
-     "targetValue": 10
+     "targetValue": 10,
+     "priority": "nice"
     },
     {
      "statName": "Mythical DPS",
@@ -129,8 +131,30 @@
      "priority": "nice"
     },
     {
+     "statName": "Mythical Health Regen",
+     "targetValue": 40,
+     "priority": "nice"
+    },
+    {
      "statName": "Mythical Evade",
      "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Arrogance (Invocation)",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "use"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Attack Speed Decrease",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
      "priority": "nice"
     },
     {
@@ -143,11 +167,19 @@
      "priority": "nice"
     },
     {
-     "statName": "Ability: Defensive Proc",
+     "statName": "Ability: Decrease Casting Speed",
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique",
-      "trigger": "hit"
+      "trigger": "use"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Defensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
      },
      "priority": "nice"
     },
@@ -171,10 +203,11 @@
      "priority": "nice"
     },
     {
-     "statName": "Ability: Melee Absorption Debuff",
+     "statName": "Ability: Resistance Enhancement",
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique",
+      "resistanceType": "both",
       "trigger": "use"
      },
      "priority": "nice"
@@ -197,37 +230,10 @@
      "priority": "nice"
     },
     {
-     "statName": "Ability: Arrogance (Invocation)",
+     "statName": "Ability: Melee Absorption Debuff",
      "targetValue": 1,
      "abilitySecondaryFilters": {
       "mode": "unique",
-      "trigger": "use"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Attack Speed Decrease",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Decrease Casting Speed",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique",
-      "trigger": "use"
-     },
-     "priority": "nice"
-    },
-    {
-     "statName": "Ability: Resistance Enhancement",
-     "targetValue": 1,
-     "abilitySecondaryFilters": {
-      "mode": "unique",
-      "resistanceType": "both",
       "trigger": "use"
      },
      "priority": "nice"
@@ -242,17 +248,244 @@
      "priority": "nice"
     }
    ],
-   "templates": 6,
-   "authors": 5,
+   "templates": 4,
+   "authors": 3,
    "pool": "exact",
    "updatedAt": 0
   },
   {
-   "id": "9|thrust|solo",
+   "id": "9|critical strike|solo",
    "classId": 9,
-   "role": "Thrust",
+   "role": "Critical Strike",
    "groupSize": "solo",
-   "label": "Thrust · Solo / duo",
+   "label": "Critical Strike · Solo / duo",
+   "goals": [
+    {
+     "statName": "Strength",
+     "targetValue": 123
+    },
+    {
+     "statName": "Constitution",
+     "targetValue": 116,
+     "priority": "nice"
+    },
+    {
+     "statName": "Dexterity",
+     "targetValue": 25,
+     "priority": "nice"
+    },
+    {
+     "statName": "Quickness",
+     "targetValue": 66,
+     "priority": "nice"
+    },
+    {
+     "statName": "Hit Points",
+     "targetValue": 535,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Crush",
+     "targetValue": 28,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Slash",
+     "targetValue": 30,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Thrust",
+     "targetValue": 29,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Heat",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Cold",
+     "targetValue": 28,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Matter",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Body",
+     "targetValue": 26,
+     "priority": "nice"
+    },
+    {
+     "statName": "Resist - Spirit",
+     "targetValue": 26
+    },
+    {
+     "statName": "Resist - Energy",
+     "targetValue": 26
+    },
+    {
+     "statName": "Skill - Slash",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Thrust",
+     "targetValue": 8,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Dual Wield",
+     "targetValue": 11,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Stealth",
+     "targetValue": 4,
+     "priority": "nice"
+    },
+    {
+     "statName": "Skill - Critical Strike",
+     "targetValue": 4,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Melee Damage",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Style Damage",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Melee Speed",
+     "targetValue": 10
+    },
+    {
+     "statName": "Toa Cast Speed",
+     "targetValue": 6,
+     "priority": "nice"
+    },
+    {
+     "statName": "Toa Heal Bonus",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Armor Factor (AF)",
+     "targetValue": 40,
+     "priority": "nice"
+    },
+    {
+     "statName": "Conversion",
+     "targetValue": 10,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical DPS",
+     "targetValue": 9,
+     "priority": "nice"
+    },
+    {
+     "statName": "Mythical Evade",
+     "targetValue": 7,
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Boon of Kings",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "use"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "value": 230,
+      "minValueIsHard": false
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Heal All Over Time",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Melee Absorption Debuff",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Resistance Enhancement",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "resistanceType": "both",
+      "trigger": "use"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Omni-Heal",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "use"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Physical Health Buffer",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Defensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "hit"
+     },
+     "priority": "nice"
+    },
+    {
+     "statName": "Ability: Offensive Proc",
+     "targetValue": 1,
+     "abilitySecondaryFilters": {
+      "mode": "unique",
+      "trigger": "strike"
+     },
+     "priority": "nice"
+    }
+   ],
+   "templates": 3,
+   "authors": 3,
+   "pool": "exact",
+   "updatedAt": 0
+  },
+  {
+   "id": "9|slash|solo",
+   "classId": 9,
+   "role": "Slash",
+   "groupSize": "solo",
+   "label": "Slash · Solo / duo",
    "goals": [
     {
      "statName": "Strength",
@@ -492,7 +725,7 @@
    "templates": 8,
    "authors": 6,
    "pool": "class",
-   "note": "Only 2 templates for Thrust · Solo / duo — learning from every template of this class (8).",
+   "note": "Only 1 template for Slash · Solo / duo — learning from every template of this class (8).",
    "updatedAt": 0
   },
   {
