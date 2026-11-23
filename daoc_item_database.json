@@ -399853,7 +399853,9 @@
     "slot": "Main Hand",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
@@ -399923,12 +399925,13 @@
       }
     ],
     "ability_tags": [
-      "fn_combat_attack_speed_decrease",
       "Ability: Attack Speed Decrease",
-      "fn_nstat_perc",
-      "Ability: Vision Of Malice"
+      "fn_combat_attack_speed_decrease",
+      "Ability: Vision Of Malice",
+      "fn_nstat_perc"
     ],
     "utility": 133.33,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -399939,7 +399942,6 @@
     },
     "delve_text": "",
     "source": "manual",
-    "_normName": "forged starlight falchion",
     "lastModified": 1794740902588
   },
   {
@@ -865884,9 +865886,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -865926,7 +865926,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -865937,13 +865937,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 50,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "dreadguard ascended tome of fiends",
+    "lastModified": 1794926307867
   },
   {
     "id": "45827",
@@ -1218457,7 +1218456,9 @@
     "slot": "Cloak",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 1,
@@ -1218541,10 +1218542,11 @@
       }
     ],
     "ability_tags": [
-      "fn_def_proc",
-      "Ability: Defensive Proc"
+      "Ability: Defensive Proc",
+      "fn_def_proc"
     ],
     "utility": 148.75,
+    "absorption": 0,
     "category": 5,
     "delve_text": "25th Anniversary Cloak of Might\nMagical Bonuses:\n- Strength: 25 pts\n- Quickness: 25 pts\n- Constitution: 25 pts\n- Mythical Stat Cap ( Strength ): 5\n- Mythical Stat Cap ( Quickness ): 5\n- Mythical Stat Cap ( Constitution ): 5\n- ALL melee weapon skills: 5 pts\n- Hits: 75 pts\n- Mythical Physical Defense: 5\nLevel Requirement: 50 Level\nConversion: 5% of all damage dealt heals your\npower and endurance instead.\nMagical Ability:\nFunction: defensive proc\nTarget: Self\nDuration: 7: 00 min\nCasting time: instant\nSub-spell:\nAdds a shield to the recipient which will\ntemporarily absorb some of the damage type\nspecified.\nAbsorption: 100%\nValue: 150\nTarget: Self\nDuration: 45 sec\nCasting time: instant\n- This spell is cast when the item is used.\nSecondary Magical Ability:\nFunction: combat bonus\nTarget does more damage with weapon styles. All\ndamage done with weapon styles is converted to\nhealing the target's group (not the target\nhim/herself).\nStyle multipler: 3\nTarget: Self\nDuration: 15 sec\nCasting time: 20 sec\n- This spell is cast when the item is used.\n- Requirement: not usable by Infiltrators\nCan use item every: 10: 00 min\nCannot be sold to merchants.\nBonus Level: 50",
     "source": "manual",
@@ -1237549,7 +1237551,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 10,
@@ -1237638,7 +1237640,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 19,
@@ -1237727,7 +1237729,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 10,
@@ -1237816,7 +1237818,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 19,
@@ -1237905,7 +1237907,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 19,
@@ -1237994,7 +1237996,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 19,
@@ -1238083,7 +1238085,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 10,
@@ -1238172,7 +1238174,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 19,
@@ -1238423,7 +1238425,7 @@
     ],
     "ability_tags": [
       "Ability: Illusion",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 86,
     "absorption": 19,
@@ -1294953,7 +1294955,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1295039,7 +1295041,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1296199,7 +1296201,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1296292,7 +1296294,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1296379,7 +1296381,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1296472,7 +1296474,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1296565,7 +1296567,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1297389,7 +1297391,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1297475,7 +1297477,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1297561,7 +1297563,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1297641,7 +1297643,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1297721,7 +1297723,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1297801,7 +1297803,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1298333,7 +1298335,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 90,
     "absorption": 0,
@@ -1299077,7 +1299079,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1299170,7 +1299172,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1299250,7 +1299252,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1299337,7 +1299339,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1300170,7 +1300172,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1300257,7 +1300259,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1302123,7 +1302125,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1302203,7 +1302205,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1302370,7 +1302372,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1302456,7 +1302458,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1303144,7 +1303146,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1303230,7 +1303232,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1303316,7 +1303318,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1303402,7 +1303404,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1303488,7 +1303490,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1303574,7 +1303576,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1303660,7 +1303662,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1303746,7 +1303748,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1303832,7 +1303834,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1303918,7 +1303920,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1304351,7 +1304353,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1304444,7 +1304446,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1304537,7 +1304539,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1304630,7 +1304632,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1304723,7 +1304725,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1304816,7 +1304818,7 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1307976,7 +1307978,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1308072,7 +1308074,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 90,
     "absorption": 0,
@@ -1308252,8 +1308254,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1308348,8 +1308350,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1309643,8 +1309645,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Attack Speed Decrease"
+      "Ability: Attack Speed Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1309746,8 +1309748,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Attack Speed Decrease"
+      "Ability: Attack Speed Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1309843,8 +1309845,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Attack Speed Decrease"
+      "Ability: Attack Speed Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1310049,8 +1310051,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Attack Speed Decrease"
+      "Ability: Attack Speed Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1310973,8 +1310975,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1311069,8 +1311071,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1311165,8 +1311167,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1311255,8 +1311257,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1311345,8 +1311347,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1311435,8 +1311437,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1312027,8 +1312029,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 90,
     "absorption": 0,
@@ -1312859,8 +1312861,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1312955,8 +1312957,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1313045,8 +1313047,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1313135,8 +1313137,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1314075,8 +1314077,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Attack Speed Decrease"
+      "Ability: Attack Speed Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1314172,8 +1314174,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Attack Speed Decrease"
+      "Ability: Attack Speed Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1316248,8 +1316250,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1316338,8 +1316340,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1316525,8 +1316527,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1316621,8 +1316623,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1317389,8 +1317391,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1317485,8 +1317487,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1317581,8 +1317583,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1317677,8 +1317679,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1317773,8 +1317775,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1317869,8 +1317871,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1317965,8 +1317967,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1318061,8 +1318063,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1318157,8 +1318159,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1318253,8 +1318255,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1318736,8 +1318738,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1318839,8 +1318841,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1318942,8 +1318944,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319045,8 +1319047,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319148,8 +1319150,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319251,8 +1319253,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319355,7 +1319357,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319458,7 +1319460,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319561,7 +1319563,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319664,7 +1319666,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319767,7 +1319769,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1319870,7 +1319872,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1322938,8 +1322940,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1323034,8 +1323036,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1323319,7 +1323321,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 90,
     "absorption": 0,
@@ -1324329,8 +1324331,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Heal"
+      "Ability: Endurance Heal",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1324432,8 +1324434,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Heal"
+      "Ability: Endurance Heal",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1324529,8 +1324531,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Heal"
+      "Ability: Endurance Heal",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1324632,8 +1324634,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Heal"
+      "Ability: Endurance Heal",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1324735,8 +1324737,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Heal"
+      "Ability: Endurance Heal",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1324832,7 +1324834,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1324928,7 +1324930,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325024,7 +1325026,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325114,7 +1325116,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325204,7 +1325206,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325294,7 +1325296,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325384,7 +1325386,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325474,7 +1325476,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325564,7 +1325566,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325659,8 +1325661,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325755,8 +1325757,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325851,8 +1325853,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1325941,8 +1325943,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1326031,8 +1326033,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1326121,8 +1326123,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1326713,8 +1326715,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Increase Fumble Chance"
+      "Ability: Increase Fumble Chance",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 90,
     "absorption": 0,
@@ -1326810,7 +1326812,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Drain",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1327547,8 +1327549,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1327643,8 +1327645,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1327733,8 +1327735,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1327823,8 +1327825,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1328756,8 +1328758,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1328853,8 +1328855,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Accuracy Boost"
+      "Ability: Accuracy Boost",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1329472,7 +1329474,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1329575,7 +1329577,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1329678,7 +1329680,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1329781,7 +1329783,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1329884,7 +1329886,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1329981,7 +1329983,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1331007,8 +1331009,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1331097,8 +1331099,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1331284,8 +1331286,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1331380,8 +1331382,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1332187,8 +1332189,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1332283,8 +1332285,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1332379,8 +1332381,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1332475,8 +1332477,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1332571,8 +1332573,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1332667,8 +1332669,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1332763,8 +1332765,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1332859,8 +1332861,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1332994,8 +1332996,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1333090,8 +1333092,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Endurance Drain"
+      "Ability: Endurance Drain",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1333573,8 +1333575,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1333676,8 +1333678,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1333779,8 +1333781,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1333882,8 +1333884,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1333985,8 +1333987,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1334088,8 +1334090,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Heal All Over Time"
+      "Ability: Heal All Over Time",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335211,7 +1335213,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335307,7 +1335309,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335403,7 +1335405,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335499,7 +1335501,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,s)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335595,7 +1335597,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335691,7 +1335693,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1335787,7 +1335789,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1335877,7 +1335879,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1335967,7 +1335969,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1336063,7 +1336065,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1336153,7 +1336155,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1336243,7 +1336245,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1336339,7 +1336341,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1336429,7 +1336431,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1336519,7 +1336521,7 @@
     ],
     "ability_tags": [
       "Ability: Attack Speed Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1391513,7 +1391515,9 @@
     "slot": "Main Hand",
     "level": 50,
     "bonus_level": 48,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
@@ -1391597,10 +1391601,11 @@
       }
     ],
     "ability_tags": [
-      "fn_nresistance",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "fn_nresistance"
     ],
     "utility": 127.67,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Flexible",
     "type_data": {
@@ -1391611,7 +1391616,6 @@
     },
     "delve_text": "Dark Hallowed Soul Collector\nMagical Bonuses:\n- ALL melee weapon skills: 3 pts\n- ALL magic skills: 5 pts\n- Piety: 40 pts\n- Strength: 21 pts\n- Dexterity: 18 pts\n- Shield: -5 pts\nLevel Requirement: 50 Level\nBonus to Strength attribute bonus cap: 5\nBonus to Dexterity attribute bonus cap: 5\nBonus to melee damage: 4%\nBonus to magic damage: 4%\nMagical Ability:\n(Increases Melee and Magic Damage by 10%.\nIncreases Damage Taken by 25%\nDuration: 80 Seconds)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\n(Function: resistance decrease Lowers the value\nof the target's resistance buffs or items to the\nlisted damage type.\nResistances lowered:\nSlash 20%, Spirit 30%, Heat 30%\nDuration: 10 seconds\nDamage: Essence\nTarget: Target)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS\n- 4.3 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Slash\n- Effective Damage: 16.5 DPS\nCannot be sold to merchants.\nBonus Level: 48",
     "source": "manual",
-    "_normName": "dark hallowed soul collector",
     "lastModified": 1794717404782
   },
   {
@@ -1468465,7 +1468469,9 @@
     "slot": "Ranged",
     "level": 45,
     "bonus_level": 45,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
@@ -1468543,12 +1468549,13 @@
       }
     ],
     "ability_tags": [
-      "fn_olifedrain",
       "Ability: Omni-Lifedrain",
-      "fn_direct",
-      "Ability: Direct Damage"
+      "fn_olifedrain",
+      "Ability: Direct Damage",
+      "fn_direct"
     ],
     "utility": 136.67,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Bow",
     "type_data": {
@@ -1468559,7 +1468566,6 @@
     },
     "delve_text": "KY .\nDark Hallowed Bow\nMagical Bonuses:\n- ALL archery skills: 4 pts\n- Dexterity: 25 pts\n- Matter: 3%\n- Cold: 3%\n- Heat: 3%\nLevel Requirement: 45 Level\nBonus to Dexterity attribute bonus cap: 11\nBonus to spell range: 4%\nBonus to magic damage: 4%\nBonus to casting speed: 4%\nMagical Ability:\nFunction: omni-lifedrain\nDamages the target. A portion of damage is\nreturned to the caster as health, power, and\nendurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 60% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\nFunction: direct damage\nDamages the target.\nDamage: 150\nTarget: Targeted\nRange: 1500\nPower cost: 28\nCasting time: 3.0 sec\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy. |\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 5.8 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Thrust",
     "source": "manual",
-    "_normName": "dark hallowed bow",
     "lastModified": 1794717225744
   },
   {
@@ -1537025,7 +1537031,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537128,7 +1537134,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537235,7 +1537241,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537341,7 +1537347,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537446,7 +1537452,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537549,7 +1537555,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537652,7 +1537658,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1537754,7 +1537760,7 @@
     ],
     "ability_tags": [
       "Ability: Replenish Power",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 61,
     "absorption": 0,
@@ -1558301,7 +1558307,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1558403,7 +1558409,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 96,
     "absorption": 0,
@@ -1559195,8 +1559201,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1559600,7 +1559606,7 @@
     ],
     "ability_tags": [
       "Ability: Heal All Over Time",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 90,
     "absorption": 0,
@@ -1560389,8 +1560395,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1560491,8 +1560497,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 89.33,
     "absorption": 0,
@@ -1560593,8 +1560599,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 89.33,
     "absorption": 0,
@@ -1560894,8 +1560900,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Boon Of Kings"
+      "Ability: Boon Of Kings",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 78,
     "absorption": 0,
@@ -1562690,7 +1562696,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 96,
     "absorption": 0,
@@ -1563213,7 +1563219,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1563315,7 +1563321,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 96,
     "absorption": 0,
@@ -1563417,7 +1563423,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 96,
     "absorption": 0,
@@ -1563724,7 +1563730,7 @@
     ],
     "ability_tags": [
       "Ability: Increase Fumble Chance",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1563916,7 +1563922,7 @@
     ],
     "ability_tags": [
       "Ability: Increase Fumble Chance",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1564305,8 +1564311,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1564407,8 +1564413,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1564503,8 +1564509,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1564599,8 +1564605,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Resistance Decrease"
+      "Ability: Resistance Decrease",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1566336,7 +1566342,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1566445,7 +1566451,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1566554,7 +1566560,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1566663,7 +1566669,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1566772,7 +1566778,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1566875,7 +1566881,7 @@
     ],
     "ability_tags": [
       "Ability: Endurance Heal",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1566977,7 +1566983,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 96,
     "absorption": 0,
@@ -1567079,7 +1567085,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 96,
     "absorption": 0,
@@ -1568186,7 +1568192,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94,
     "absorption": 0,
@@ -1568762,7 +1568768,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1568858,7 +1568864,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92,
     "absorption": 0,
@@ -1569057,7 +1569063,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1569159,7 +1569165,7 @@
     ],
     "ability_tags": [
       "Ability: Resistance Decrease",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 92.67,
     "absorption": 0,
@@ -1569261,7 +1569267,7 @@
     ],
     "ability_tags": [
       "Ability: Increase Fumble Chance",
-      "Ability: Resistance Enhancement (Melee,)"
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1572707,8 +1572713,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Increase Fumble Chance"
+      "Ability: Increase Fumble Chance",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1572810,8 +1572816,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Increase Fumble Chance"
+      "Ability: Increase Fumble Chance",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1572919,8 +1572925,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Increase Fumble Chance"
+      "Ability: Increase Fumble Chance",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1573028,8 +1573034,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Increase Fumble Chance"
+      "Ability: Increase Fumble Chance",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 94.33,
     "absorption": 0,
@@ -1573837,8 +1573843,8 @@
       }
     ],
     "ability_tags": [
-      "Ability: Resistance Enhancement (Melee,)",
-      "Ability: Increase Fumble Chance"
+      "Ability: Increase Fumble Chance",
+      "Ability: Resistance Enhancement (Melee)"
     ],
     "utility": 95,
     "absorption": 0,
@@ -1662328,7 +1662334,9 @@
     "slot": "Off Hand",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 2,
@@ -1662398,12 +1662406,13 @@
       }
     ],
     "ability_tags": [
-      "fn_combat_accuracy_boost",
       "Ability: Accuracy Boost",
-      "fn_nresistance",
-      "Ability: Resistance Decrease"
+      "fn_combat_accuracy_boost",
+      "Ability: Resistance Decrease",
+      "fn_nresistance"
     ],
     "utility": 133.33,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -1662414,7 +1662423,6 @@
     },
     "delve_text": "",
     "source": "manual",
-    "_normName": "forged starlight cinquedea",
     "lastModified": 1794740935927
   },
   {
@@ -1677502,9 +1677510,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1677555,13 +1677561,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 88,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "soulbound ascended tome of fiends",
+    "lastModified": 1794926327412
   },
   {
     "id": "a4fa8c6d-b981-40a9-8835-6a24f05c0a57",
@@ -1677670,7 +1677675,9 @@
     "slot": "Main Hand",
     "level": 50,
     "bonus_level": 50,
+    "champion_level": 0,
     "realm": 0,
+    "usable_by": [],
     "bonuses": [
       {
         "type": 1,
@@ -1677748,12 +1677755,13 @@
       }
     ],
     "ability_tags": [
-      "fn_olifedrain",
       "Ability: Omni-Lifedrain",
-      "fn_narrogant",
-      "Ability: Arrogance"
+      "fn_olifedrain",
+      "Ability: Arrogance",
+      "fn_narrogant"
     ],
     "utility": 131.33,
+    "absorption": 0,
     "category": 1,
     "weapon_type": "Slash",
     "type_data": {
@@ -1677764,7 +1677772,6 @@
     },
     "delve_text": "Rila: Dark Hallowed Sword\nMagical Bonuses:\n- Quickness: 13 pts\n- Dexterity: 13 pts\n- Strength: 15 pts\n- ALL melee weapon skills: 4 pts\nLevel Requirement: 50 Level\nBonus to melee combat speed: 4%\nBonus to style damage: 4%\nBonus to melee damage: 4%\nBonus to Quickness attribute bonus cap: 6\nBonus to Strength attribute bonus cap: 6\nMagical Ability:\nFunction: omni-lifedrain\nDamages the target. A portion of damage is returned to\nthe caster as health, power, and endurance.\nDamage: 100\nHealth returned: 100% of damage dealt\nPower returned: 80% of damage dealt\nEndurance returned: 40% of damage dealt\nTarget: Targeted\nRange: 1350\nCasting time: instant\nDamage: Essence\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\n[Target suffers a penalty to every stat and a\nweakness to melee damage.\nPenalty to all stats: 35\nVulnerability to melee: 5%\nTarget: Targeted\nRange: 500\nDuration: 20s\nCasting time: instant\nDamage: Body)\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS (16.2 Clamped DPS)\n- 4.5 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Slash\n- Effective Damage: 16.2 DPS",
     "source": "manual",
-    "_normName": "dark hallowed sword",
     "lastModified": 1794717355249
   },
   {
@@ -1678013,9 +1678020,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1678055,7 +1678060,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -1678066,13 +1678071,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 44,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "hungering ascended tome of fiends",
+    "lastModified": 1794926319951
   },
   {
     "id": "dbc7508c-cf61-4b51-b125-47d012ea5f3a",
@@ -1678135,6 +1678139,114 @@
     "category": 5,
     "delve_text": "KY .\nGreater Stardrop |\nMagical Bonuses: 1\n- Slash: -10% |\n- Crush: -10%\n- Thrust: -10%\nLevel Requirement: 50 Level\nBonus to stat enhancement spell effectiveness:\n25%\nBonus to duration of spells: 25%\nJ\nCharged Magic Ability: 1\n- 30 Charges\n- 30 Max E\nFunction: dmg-over-time ;\nInflicts damage to the target repeatedly over a\ngiven time period.\nDamage per tick: 64\nTarget: Targeted\nRange: 300\nDuration: 20 sec\nFrequency: 4.0 sec\nCasting time: instant\nDamage: Energy\n- This spell is cast when the item is used.\nCan use item every: 1: 30 min\nCannot be sold to merchants.\nBonus Level: 42",
     "source": "manual"
+  },
+  {
+    "id": "dc11528c-b432-49df-ad17-c083c201dcb8",
+    "name": "Dark Hallowed Ravager",
+    "slot": "Two-Hand",
+    "level": 45,
+    "bonus_level": 48,
+    "realm": 0,
+    "bonuses": [
+      {
+        "type": 2,
+        "subType": 300,
+        "value": 3,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 1,
+        "value": 15,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 3,
+        "value": 22,
+        "isInherent": false
+      },
+      {
+        "type": 1,
+        "subType": 0,
+        "value": 22,
+        "isInherent": false
+      },
+      {
+        "type": 2,
+        "subType": 8,
+        "value": 2,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 0,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 3,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 28,
+        "subType": 1,
+        "value": 5,
+        "isInherent": false
+      },
+      {
+        "type": 10,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      },
+      {
+        "type": 8,
+        "subType": 0,
+        "value": 4,
+        "isInherent": false
+      }
+    ],
+    "abilities": [
+      {
+        "spell": 0,
+        "position": 1,
+        "magic_type": 1,
+        "label": "Ability",
+        "trigger": "Proc on Strike",
+        "name": "Resistance Decrease",
+        "description": "Lowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Thrust\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Thrust\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Crush\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Crush\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+      },
+      {
+        "spell": 0,
+        "position": 2,
+        "magic_type": 1,
+        "label": "Ability",
+        "trigger": "Proc on Strike",
+        "name": "Melee Absorption Debuff",
+        "description": "Reduces the target's absorption (ABS) factor, resulting\nin worse protection against melee attacks.\nValue: 15%\nTarget: Targeted\nRange: 300\nDuration: 30 sec\nCasting time: instant\nDamage: Body\nTT WE = ry\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Thrust\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Thrust\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Crush\n- Resists from spell-based buffs reduced 15%\n- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Crush\nSpell has a chance of casting when this weapon\nstrikes an enemy."
+      }
+    ],
+    "ability_tags": [
+      "fn_nresistance",
+      "Ability: Resistance Decrease",
+      "fn_nabsorb",
+      "Ability: Melee Absorption Debuff"
+    ],
+    "utility": 134.33,
+    "category": 1,
+    "weapon_type": "Spear",
+    "type_data": {
+      "dps": 16.5,
+      "speed": 6,
+      "damage_type": 3,
+      "skill_used": 26
+    },
+    "delve_text": "Dark Hallowed Ravager\nMagical Bonuses:\n- ALL melee weapon skills: 3 pts\n- Dexterity: 15 pts\n- Quickness: 22 pts\n- Strength: 22 pts\n- Parry: 2 pts\nLevel Requirement: 45 Level\nBonus to Strength attribute bonus cap: 5\nBonus to Quickness attribute bonus cap: 5\nBonus to Dexterity attribute bonus cap: 5\nBonus to style damage: 4%\nBonus to melee damage: 4%\nMagical Ability:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Thrust\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Thrust\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Crush\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Crush\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\nFunction: melee absorption debuff\nReduces the target's absorption (ABS) factor, resulting\nin worse protection against melee attacks.\nValue: 15%\nTarget: Targeted\nRange: 300\nDuration: 30 sec\nCasting time: instant\nDamage: Body\nTT WE = ry\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Slash\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Slash\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Thrust\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Thrust\nAlso casts:\nFunction: resistance decrease\nLowers the value of the target's resistance buffs or\nitems to the listed damage type.\nBase value of spell: 20\nResist decreased: Crush\n-- Resists from spell-based buffs reduced 15%\n-- Resists from item-based buffs reduced 7%\nTarget: Targeted\nRange: 1750\nDuration: 15 sec\nCasting time: instant\nDamage: Crush\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nSecondary Magical Ability:\nFunction: melee absorption debuff\nReduces the target's absorption (ABS) factor, resulting\nin worse protection against melee attacks.\nValue: 15%\nTarget: Targeted\nRange: 300\nDuration: 30 sec\nCasting time: instant\nDamage: Body\n- Spell has a chance of casting when this weapon\nstrikes an enemy.\nDamage Modifiers:\n- 16.5 Base DPS\n- 6.0 Weapon Speed\n- 100% Quality / 100% Condition\n- Damage Type: Thrust\n- Effective Damage: 16.5 DPS\nCan use item every: 10:00 min\nCannot be sold to merchants.\nBonus Level: 48",
+    "source": "manual",
+    "lastModified": 1795412295393
   },
   {
     "id": "e5a0fcde-b469-437c-90b1-edc29d8611bf",
@@ -1678302,9 +1678414,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 78,
@@ -1678344,18 +1678454,17 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 50,
-    "absorption": 0,
-    "category": 0,
+    "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "soulforged ascended tome of fiends",
+    "lastModified": 1794926335994
   },
   {
     "id": "f598ec49-fc16-4956-b820-8eaaadab986a",
@@ -1678363,9 +1678472,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1678410,13 +1678517,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 20,
-    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "fearmongering ascended tome of fiends",
+    "lastModified": 1794926312913
   },
   {
     "id": "f743eb4a-0ab1-4c20-b61c-759cfb2ef6b2",
@@ -1678424,9 +1678530,7 @@
     "slot": "Myth",
     "level": 50,
     "bonus_level": 50,
-    "champion_level": 0,
     "realm": 0,
-    "usable_by": [],
     "bonuses": [
       {
         "type": 77,
@@ -1678466,7 +1678570,7 @@
       },
       {
         "type": 5,
-        "subType": 0,
+        "subType": 16,
         "value": 5,
         "isInherent": false
       },
@@ -1678477,13 +1678581,12 @@
         "isInherent": false
       }
     ],
-    "abilities": [],
-    "ability_tags": [],
     "utility": 60,
-    "absorption": 0,
     "category": 5,
     "delve_text": "",
-    "source": "manual"
+    "source": "manual",
+    "_normName": "demonforged ascended tome of fiends",
+    "lastModified": 1794926301288
   },
   {
     "id": "fcf3a8e4-47c4-4e48-a232-e17654a239e8",
