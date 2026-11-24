@@ -46404,7 +46404,7 @@
   {
     "id": "11955",
     "name": "Accursed Throwing Hammers",
-    "slot": "Main Hand",
+    "slot": "Ranged",
     "level": 50,
     "bonus_level": 20,
     "champion_level": 0,
@@ -189465,7 +189465,7 @@
   {
     "id": "18161",
     "name": "Weighted Griffon Hunters",
-    "slot": "Main Hand",
+    "slot": "Ranged",
     "level": 50,
     "bonus_level": 15,
     "champion_level": 0,
@@ -189511,7 +189511,7 @@
   {
     "id": "18162",
     "name": "Griffon Seekers",
-    "slot": "Main Hand",
+    "slot": "Ranged",
     "level": 50,
     "bonus_level": 12,
     "champion_level": 0,
@@ -381293,7 +381293,7 @@
   {
     "id": "2361",
     "name": "Throwing Axes",
-    "slot": "Main Hand",
+    "slot": "Ranged",
     "level": 50,
     "bonus_level": 15,
     "champion_level": 0,
@@ -648647,7 +648647,7 @@
   {
     "id": "34388",
     "name": "Exceptional Maligned Throwing Daggers",
-    "slot": "Main Hand",
+    "slot": "Ranged",
     "level": 50,
     "bonus_level": 20,
     "champion_level": 0,
@@ -653115,7 +653115,7 @@
   {
     "id": "34468",
     "name": "Superior Accursed Throwing Hammers",
-    "slot": "Main Hand",
+    "slot": "Ranged",
     "level": 50,
     "bonus_level": 30,
     "champion_level": 0,
